@@ -1,0 +1,190 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: Arial;
+	font-size: 18px;
+	background-color: #f9fafc;
+}
+
+section{
+	width: 50%;
+	float: left;
+	display: inline;
+	margin: 2% auto;
+	
+}
+
+h1{
+	font-family: 'Pacifico', cursive;
+	font-size: 2.5rem;
+}
+
+/*  MAIN SECTION 1 */ 
+
+.img-section, .pic-container{
+	height: 90vh;
+}
+
+.pic-container{
+	position: relative;
+	margin-top:3%;
+	margin-left: 38%;
+	width: 454px;
+}
+
+.phone-pic{
+	z-index: 1;
+	position: relative;
+}
+
+.insta-gif{
+	z-index: 20;
+	width: 241px;
+	position: relative;
+	margin-left: 33.3%;
+    top: -524px;
+}
+
+
+/*  MAIN SECTION 2 */ 
+
+
+.content-section{
+	background-color: #fff;
+	text-align: center;
+	border: 1px solid #e8e9ed;
+	margin-bottom: 3%;
+	width: 60%;
+}
+
+.content-section-app{
+	text-align: center;
+	margin-bottom: 3%;
+	width: 60%;
+}
+
+.form-container{
+	width: 80%;
+	margin: 0 auto;
+}
+
+
+.gray-p{
+	color: #999;
+	
+}
+
+.button{
+	background-color: #3897f0;
+	color: #fff;
+	border: none;
+	border-radius: 5%;
+	width: 100%;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+	font-size: 16px;
+}
+
+.hr{
+     text-align: center;
+     margin: 4% 0 4% 0;
+     color: #999;
+     font-size: 0.8rem;
+ }
+ 
+hr {
+     display: inline-block;
+     width: 43.5%;
+
+}
+
+input{
+	border-radius: 5%;
+	width: 100%;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+	font-size: 16px;
+	border: 1px solid #e8e9ed;
+	background-color: #f9fafc;
+	font-size: 0.8rem;
+	margin-bottom: 2%;
+}
+
+::placeholder {
+	color:#c4c2c2;
+	padding-left:1%;
+}
+
+.form-container p {
+	color: #999;
+	font-size: 1rem;
+}
+
+.terms{
+	text-decoration: none;
+	color: #999;
+}
+
+#login{
+	text-decoration: none;
+	color: #3897f0;
+}
+
+.padd-p{
+	padding: 3% 0 3% 0;
+	font-size: 1rem;
+}
+
+.get-app{
+	width: 80%;
+	margin: 0 auto;
+}
+
+.get-app img{
+	display: inline;
+	width: 40%;
+	height: 40px;
+}
+
+
+/*  MAIN SECTION 3 */ 
+
+
+#navbar{
+	text-align: center;
+}
+
+nav, footer{
+	display: inline;
+}
+
+#navbar ul{
+	padding: 0;
+	list-style: none;
+	width: 80%;
+	text-align: center;
+	margin: 0 auto;
+}
+
+#navbar li{
+	display: inline;
+	font-size: 0.8rem;
+}
+
+#navbar a {
+	text-decoration: none;
+	padding-right: 2%;
+	color: black;
+}
+
+.footer{
+	color: #999;
+	padding-left: 10%;
+}
+
+.bottom{
+	clear: both;
+	height: 10vh;
+
+}
+
